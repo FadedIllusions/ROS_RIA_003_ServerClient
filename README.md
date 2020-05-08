@@ -11,4 +11,4 @@ This repository is a simple service server/client pair, with accompanying launch
   <img src="/images/service_publisher.png" alt="Service/Publisher Code Excerpt">
 </p>
 
-As seen in the code, when subscribed to by a client, the server responds to requests by publishing Twist values for linear.x and angular.z to /cmd_vel.
+As seen in the code, when subscribed to by a client, the server responds to requests by publishing Twist messages for linear.x and angular.z values to /cmd_vel.
